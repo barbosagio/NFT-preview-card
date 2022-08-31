@@ -1,0 +1,57 @@
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+.container__main {
+    background-color: var(--primary-neutral);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.nft-card {
+    background-color: var( --secondary-neutral);
+    max-width: 320px;
+    border-radius: 10px;
+}
+
+.nft-card .card-image {
+    padding: 20px;
+}
+
+.nft-card .card-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.nft-card .nft-title {
+    font-size: 20px;
+    margin: 0 0 15px 20px;
+    color: var( --color-font-main);
+}
+
+.nft-card .nft-description {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 0 15px 20px;
+    line-height: 23px;
+    color: var(--color-font-third);
+}
+
+.nft-card .nft-offer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.nft-card .nft-offer .value {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--color-font-second);
+}
+
+.nft-card .nft-offer .time {
+    font-size: 13px;
+    color: var(--color-font-third);
+}

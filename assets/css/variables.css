@@ -1,0 +1,9 @@
+:root {
+    --color-font-main: #FFF;
+    --color-font-second: hsl(178, 100%, 50%);
+    --color-font-third: hsl(215, 51%, 70%);
+
+    --primary-neutral: hsl(217, 54%, 11%);
+    --secondary-neutral: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+}
