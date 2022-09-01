@@ -12,12 +12,13 @@ body {
 
 .nft-card {
     background-color: var( --secondary-neutral);
-    max-width: 320px;
-    border-radius: 10px;
+    max-width: 353px;
+    border-radius: 12px;
+    box-shadow: 0px 23px 36px -13px rgba(0,0,0,0.30);
 }
 
 .nft-card .card-image {
-    padding: 20px;
+    padding: 25px
 }
 
 .nft-card .card-image img {
@@ -26,32 +27,80 @@ body {
 }
 
 .nft-card .nft-title {
-    font-size: 20px;
-    margin: 0 0 15px 20px;
+    font-size: 22px;
     color: var( --color-font-main);
+    padding: 0 25px;
 }
 
 .nft-card .nft-description {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
-    margin: 0 0 15px 20px;
-    line-height: 23px;
+    padding: 15px 25px 0;
+    line-height: 27px;
     color: var(--color-font-third);
 }
 
 .nft-card .nft-offer {
     display: flex;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 20px 25px 0;
 }
 
 .nft-card .nft-offer .value {
-    font-size: 13px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
     font-weight: 600;
     color: var(--color-font-second);
 }
 
+.nft-card .nft-offer .value::before {
+    content: '';
+    background: url(../images/icon-ethereum.svg) no-repeat center;
+    width: 11px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 7px;
+}
+
 .nft-card .nft-offer .time {
-    font-size: 13px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
     color: var(--color-font-third);
+}
+
+.nft-card .nft-offer .time::before {
+    content: '';
+    background: url(../images/icon-clock.svg) no-repeat center;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    margin-right: 7px;
+}
+
+.nft-card .nft-creator {
+    display: flex;
+    align-items: center;
+    border-top: 1px var(--line) solid;
+    margin: 25px 25px 15px 25px;
+    padding: 20px 0;
+}
+
+.nft-card .nft-creator .photo-creator {
+    width: 35px;
+    border: 1px solid white;
+    border-radius: 20px;
+
+}
+
+.nft-card .nft-creator p {
+    color: var(--color-font-third);
+    padding-left: 17px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.nft-card .nft-creator p .name-creator {
+    color: var(--color-font-main);
 }
