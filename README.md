@@ -12,8 +12,8 @@ Os usuários devem ser capazes de:
 ![](assets/material/nft-card-preview.gif)
 
 ### Links
-- Solução URL: [Front-end mentor](https://your-solution-url.com)
-- Live Site URL: [Github pages](https://your-live-site-url.com)
+- Solução URL: [Front-end mentor](https://www.frontendmentor.io/solutions/nftpreviewcard-very-organized-with-clean-html-and-pseudoclasses-xte2WTll2G)
+- Live Site URL: [Github pages](https://barbosagio.github.io/NFT-preview-card/)
 
 ## Meu processo
 ### Construção
